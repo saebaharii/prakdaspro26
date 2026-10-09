@@ -16,9 +16,9 @@ public class nestedBuku26 {
                 System.out.println("Anda mendapatkan diskon 10%");
                 System.out.print("Masukkan jumlah kamus yang dibeli: ");
                 int jumlahKamus = sc.nextInt();
-                if (jumlahKamus > 2) {
-                    System.out.println("Anda mendapat tambahan diskon 2%, total diskon Anda 12%");
-                }
+                    if (jumlahKamus > 2) {
+                        System.out.println("Anda mendapat tambahan diskon 2%, total diskon Anda 12%");
+                    }
             } else {
                 System.out.print("Apakah jenis buku adalah novel? (true/false): ");
                 boolean isNovel = sc.nextBoolean();
@@ -27,19 +27,19 @@ public class nestedBuku26 {
                     System.out.println("Anda mendapatkan diskon 7%");
                     System.out.print("Masukkan jumlah novel yang dibeli: ");
                     int jumlahNovel = sc.nextInt();
-                    if (jumlahNovel > 3) {
-                        System.out.println("Anda mendapat tambahan diskon 2%, total diskon Anda 9%");
-                    } else {
-                        System.out.println("Anda mendapatkan diskon 1%");
-                    }
+                        if (jumlahNovel > 3) {
+                            System.out.println("Anda mendapat tambahan diskon 2%, total diskon Anda 9%");
+                        } else {
+                            System.out.println("Anda mendapatkan diskon 1%");
+                        }
                 } else {
                     System.out.print("Masukkan jumlah buku: ");
                     int jumlahBuku = sc.nextInt();
-                    if (jumlahBuku > 3) {
-                        System.out.println("Anda mendapat diskon 5%");
-                    } else {
-                        System.out.println("Anda tidak mendapatkan diskon, diskon saat ini 0%");
-                    }
+                        if (jumlahBuku > 3) {
+                            System.out.println("Anda mendapat diskon 5%");
+                        } else {
+                            System.out.println("Anda tidak mendapatkan diskon, diskon saat ini 0%");
+                        }
                 }
             }
         } else {

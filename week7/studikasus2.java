@@ -31,7 +31,7 @@ public class studikasus2 {
             }
         } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
             System.out.print("Apakah lolos pendanaan? (1/0): ");
-            lolosPendanaan = sc.nextInt();
+            lolosPendanaan = sc.nextInt(); 
             if (lolosPendanaan == 1) {
                 System.out.println("Status : Lolos pendanaan. Dana penghargaan diberikan.");
             } else if (lolosPendanaan == 0) {
